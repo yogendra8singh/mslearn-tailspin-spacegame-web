@@ -14,8 +14,8 @@ variables:
 
 steps:
 - task: DotNetCoreCLI@2
-  displayName: 'dotnet build $(buildConfiguration)'
-  inputs: 
-    command: 'dotnet build'
-    arguments: '--no-restore --configuration Release'
-    projects: '**/*.csproj'
+    displayName: 'dotnet build $(buildConfiguration)'
+    inputs: 
+      command: 'dotnet build'
+      arguments: '--no-restore --configuration Release'
+      projects: '**/*.csproj'
